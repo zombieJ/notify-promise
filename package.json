@@ -1,0 +1,26 @@
+{
+  "name": "notify-promise",
+  "version": "0.0.1",
+  "description": "Wrap ES6 Promise with notify",
+  "main": "js/index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "mocha --recursive --compilers js:babel-core/register",
+    "prepublish": "tsc"
+  },
+  "author": "zombieJ",
+  "license": "MIT",
+  "dependencies": {
+    "setimmediate": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.15",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "typescript": "^2.3.1"
+  }
+}
